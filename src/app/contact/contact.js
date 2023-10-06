@@ -1,3 +1,17 @@
+import style   from "../../../Components/style.module.css";
 
-export default function contact(){
-  return <h1>contact</h1>}
+export const NavBar = () => {
+
+   return (
+   <div className= { style.nav}>
+  
+    <NavBar />
+  <h1 className={ Contact }>contact me</h1>
+  <p>salih some 072293345
+</p>
+</div>
+
+</div>
+  
+)
+} 

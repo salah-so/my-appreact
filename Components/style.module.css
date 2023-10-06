@@ -2,24 +2,57 @@
   width: 100%;
   display: flex;
 justify-content: space-around;
-background: blue;
-padding: 10px;
+background: rgb(76, 0, 255);
+padding: 20px;
+border: 10px;
 }
 
 .nav div {
-border: 1px solid green;
+border: 1px solid rgb(244, 243, 247);
 padding: 10px;
 cursor: pointer;
 border-radius: 0.25rem;
+
 }
 
 .nav div:hover{
-  background: yellow;
+  background: rgb(8, 8, 238);
 }
 
 .movieList{
-  background: rgb(83, 61, 142);
-  border:1px solid white;
+  background: rgb(51, 4, 206);
+  border:1px solid rgb(3, 240, 26);
   margin: 10px;
-  width: 350px;
+  width: 300px;
+
+}
+.Par {
+  background-color: rgb(85, 0, 255);
+  color:rgb(244, 244, 247) ;
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-shadow: 10px;
+  text-emphasis-style:calc(10px);
+  
+  height: 65px;
+}
+.input  {
+   background-color: rgb(85, 0, 255);
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  border: 10px; ;
+  height: 55px;
+  width:100%;
+  color: rgb(18, 236, 236);
+  margin: 0px;
+padding: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+};
+.Contact{
+  background-color: brown;
 }

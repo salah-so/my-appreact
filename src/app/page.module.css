@@ -233,3 +233,12 @@
   flex-wrap:wrap;
 };
 
+.Imag {
+  background:blue;
+  margin:0px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

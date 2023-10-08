@@ -3,6 +3,9 @@ import Image from "next/image";
 import Img from "../../../public/mentor nahom.jpg";
 import Imag from "../page.module.css";
 import Nk from "../../../public/nknahom.png";
+import { YouTube } from "../page.module.css";
+import {Facebook} from "../page.module.css";
+import { List } from "../page.module.css";
 export default function about () {
 return (
    <div>
@@ -13,7 +16,7 @@ return (
        <Image src= { Nk } placeholder = "blur"alt="nahom" width="1000" height="450"></Image>
 
       <h1>Web Development Course for Beginners</h1>
-    <ul>
+    <ul className={List}>
       <li>Introduction to Programming</li>
       <li>Introduction to Version Control using Git and GitHub</li>
       <li> Introduction to HTML, CSS and Javascript</li>
@@ -25,8 +28,9 @@ return (
       <li>Final Project e.t.c.</li>
       </ul>
       
-      <a href="https://www.youtube.com/@nknahom"><h2>Visit to watch more of nknahom tech - ንላለ ምስ ቴክኖሎጂ on youtube!</h2></a>
-      <a href="https://www.facebook.com/nahom.mehanzel"><h2>Visit to See more of Nahom Kibreab on Facebook!</h2></a>
+      <h4>click here to watch  more of nknahom tech - ንላለ ምስ ቴክኖሎጂ on</h4><a href="https://www.youtube.com/@nknahom"><button className={YouTube}>YouTube</button></a>
+
+      <h4>Visit to See more of Nahom Kibreab on</h4><a href="https://www.facebook.com/nahom.mehanzel"><button className={Facebook}>Facebook</button></a>
      </div>
    </div>
   

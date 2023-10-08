@@ -1,13 +1,35 @@
-import style   from "../../../Components/style.module.css";
+
+import { Form } from "../page.module.css";
+import { Send } from "../page.module.css";
+import { Input } from "../page.module.css";
+import { Container } from "../page.module.css";
 export default function page () {
 return (
-   <div>
-  
- <h className= { style.nav}> </h>
-  
-  <p>salih some 072293345
-</p>
-</div>
+   <div className= {Container} 
+  >
+    <h1>Contact Us</h1>
+     <p>please fill in the form below</p>
+   <form className={Form}>
+      <div>
+        <label htmlFor="fullname">Full Name</label>
+    <input className={Input} type="text" id="fullname"placeholder="salah som">
+     </input>
+      </div>
+      <div>
+        <label htmlFor="email">Email</label>
+    <input  className={Input} type="text" id="email"placeholder="salih som@gmail,com">
+     </input>
+      </div>
+      <div>
+        <label htmlFor="message">Message</label>
+    <textarea className={Input} id="message" placeholder="type your message her......"></textarea>
+     
+      </div>
+      <button className={Send}type="submit">send</button>
+   </form>
+    
+  </div>
+
   
 );
 } 

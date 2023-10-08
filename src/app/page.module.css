@@ -242,3 +242,84 @@
   align-items: center;
   
 }
+
+.Container { 
+  display:inline-block;
+justify-content: center;
+  align-items: center;
+  
+  margin-left:90px;
+  margin-right: 90px;
+
+}
+.Form {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right:30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top:5px;
+  display:flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: rgb(96, 60, 15);
+  color: rgb(43, 3, 245)); 
+}
+
+.Input{
+  background-color: white;
+
+
+}
+
+
+
+.Send {
+  background-color: #1fff06;
+  height: 32px;
+  width:200px;
+   
+}
+
+
+
+.List{
+  display:list-item;
+  justify-items: center;
+  text-justify: newspaper;
+  margin: 40px;
+  margin-left: 70px;
+  padding: 5px;
+
+}
+
+.Bodypart{
+  background-color: rgb(2, 2, 245);
+
+}
+.YouTube {
+  background-color: red;
+  color:white;
+  border-style: double;
+   padding:5px;
+  cursor: pointer;
+  border: 3px solid rgb(244, 243, 247);
+  border-radius:3px;
+  box-sizing:border-box ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.Facebook {
+  background-color: blue;
+  border: 3px solid rgb(244, 243, 247);
+  color:white;
+  border-style: double;
+   padding:5px;
+  cursor: pointer;
+
+  border-radius:3px;
+  box-sizing:border-box ;
+}

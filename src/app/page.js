@@ -1,8 +1,9 @@
 import {Movie} from '../../Components/movie';
 import  movies from "../../data/movies.json";
 import style from "./page.module.css";
-import { input } from "../../Components/style.module.css"
+import { Input } from "./page.module.css"
 import { Par } from "../../Components/style.module.css";
+import {Search} from "../../Components/style.module.css";
 
 export default function Home () {
  const movieList = movies.map((movie)=>{
@@ -11,10 +12,10 @@ export default function Home () {
 
 return (
   <div>
-    <p className={Par}> Our Final Web Development Project - ናይ መወዳእታ ፕሮጀክትና ምምዕባል መርበብ ሓበሬታ </p>
-    <div className={input}>
-     <input type='text'placeholder='search...'/>
-        <button>search</button>
+    <h2 className={Par}> Our Final Web Development Project - ናይ መወዳእታ ፕሮጀክትና ምምዕባል መርበብ ሓበሬታ </h2>
+    <div >
+     <input className={Input}type='text'placeholder='search...'/>
+        <button className= {Search}>search</button>
 
     </div>
    

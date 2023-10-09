@@ -1,7 +1,7 @@
 
 import { Form } from "../page.module.css";
 import { Send } from "../page.module.css";
-import { Input } from "../page.module.css";
+import { InputFORM } from "../page.module.css";
 import { Container } from "../page.module.css";
 export default function page () {
 return (
@@ -12,17 +12,17 @@ return (
    <form className={Form}>
       <div>
         <label htmlFor="fullname">Full Name</label>
-    <input className={Input} type="text" id="fullname"placeholder="salah som">
+    <input className={InputFORM} type="text" id="fullname"placeholder="salah som">
      </input>
       </div>
       <div>
         <label htmlFor="email">Email</label>
-    <input  className={Input} type="text" id="email"placeholder="salih som@gmail,com">
+    <input  className={InputFORM} type="text" id="email"placeholder="salih som@gmail,com">
      </input>
       </div>
       <div>
         <label htmlFor="message">Message</label>
-    <textarea className={Input} id="message" placeholder="type your message her......"></textarea>
+    <textarea className={InputFORM} id="message" placeholder="type your message her......"></textarea>
      
       </div>
       <button className={Send}type="submit">send</button>

@@ -9,8 +9,8 @@ border: 10px;
 }
 
 .nav div {
-border: 1px solid rgb(244, 243, 247);
-padding: 10px;
+border: 3px solid rgb(244, 243, 247);
+padding: 7px;
 cursor: pointer;
 border-radius: 0.25rem;
 
@@ -22,38 +22,38 @@ border-radius: 0.25rem;
 
 .movieList{
   background:blue;
-  border:1px solid rgb(39, 247, 60);
-  margin: 5px;
+  border:3px solid rgb(39, 247, 60);
+  margin:6px;
+  margin-left:3PX;
+  margin-right: 3px;
+  margin-top: 3px;
+  margin-bottom:3PX;
   width:365px;
 
 }
 .Par {
-  background-color: blue;
-  color:rgb(244, 244, 247) ;
+  background-color: rgb(60, 255, 0);
+  color:blue ;
   display: flex;
   text-align: center;
   justify-items: center;
   justify-content: center;
   padding: 10px;
-  text-shadow: 10px;
+  text-shadow:rgb(14, 1, 20);
   text-emphasis-style:calc(10px);
-  
   height: 65px;
 }
-.input  {
-   background-color:blue;
-  display: flex;
-  justify-items: center;
-  justify-content: center;
-  border: 10px; ;
-  height: 65px;
- width:100%;
-  color: rgb(255, 255, 255);
-  margin: 0px;
-padding: 10px;
-font-family: Georgia, 'Times New Roman', Times, serif;
 
-};
+.Search {
+cursor: pointer;
+  background-color:white;
+  color: blue;
+  padding: 5px;
+  margin-left:0;
+  border-top-right-radius:15px;
+  border-bottom-right-radius: 15px;
+}
+
 
 
 

@@ -1,14 +1,18 @@
 
-import { Form } from "../page.module.css";
-import { Send } from "../page.module.css";
-import { InputFORM } from "../page.module.css";
-import { Container } from "../page.module.css";
+import { Form } from "../../../Components/style.module.css";
+import { Send } from "../../../Components/style.module.css";
+import { InputFORM } from "../../../Components/style.module.css";
+import { ContactCon } from "../../../Components/style.module.css"
+
 export default function page () {
 return (
-   <div className= {Container} 
+  
+   <div className= {ContactCon} 
   >
     <h1>Contact Us</h1>
      <p>please fill in the form below</p>
+   
+     
    <form className={Form}>
       <div>
         <label htmlFor="fullname">Full Name</label>
@@ -27,9 +31,8 @@ return (
       </div>
       <button className={Send}type="submit">send</button>
    </form>
-    
+  
   </div>
-
   
 );
 } 

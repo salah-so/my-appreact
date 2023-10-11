@@ -44,7 +44,7 @@ border-radius: 0.25rem;
   height: 65px;
 }
 
-.Search {
+.SearchIcon {
 cursor: pointer;
   background-color:white;
   color: blue;
@@ -53,7 +53,74 @@ cursor: pointer;
   border-top-right-radius:15px;
   border-bottom-right-radius: 15px;
 }
+.SearchMovie{
+  background-color:white;
+  color: blue;
+  margin-top: 15px;
+   margin-left: 300px;
+   margin-bottom: 15px;
+   padding: 5px;
+  height:40px;
+  width:40%;
+border-top-left-radius:15px;
+border-bottom-left-radius: 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
+
+
+
+.Form {
+  width:120%;
+  height: 370px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right:30px;
+  margin-top: 50px;
+  margin-bottom:30px;
+  border-top:30px;
+ gap: 30px;
+   color: rgb(255, 255, 255);
+   text-shadow: #0011ff;
+}
+
+.InputFORM{
+  background-color: rgb(255, 252, 252);
+  color: rgb(0, 0, 7);
+shape-margin:10px;
+margin-left: 25px;
+
+margin-top:20px ;
+height: 40px;
+width: 90%;
+
+}
+
+
+
+.Send {
+  background-color: #ff1900;
+  height: 35px;
+  width:100px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.Send:hover{
+  color: rgb(238, 255, 0);
+}
+.ContactCon{ 
+  display:grid;
+justify-content:center;
+justify-items: center;
+  align-items:center;
+margin-right:25%;
+margin-left: 25%;
+ 
+background-color: blue;
+  color:rgb(255, 255, 255);
+}
 
 
 

@@ -231,78 +231,16 @@
 .movieContainer {
   display: flex;
   flex-wrap:wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center
+  
 };
 
-.imag {
-  background:blue;
-  margin:15px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 15px;
-  
-}
-
-.Container { 
-  display:inline-block;
-justify-content:space-around;
-justify-items: right;
-  align-items:space-around;
-  margin-top:45px;
-  margin-left:450px;
-  margin-right: 150px;
-  border: 10px;
-
-}
-.Form {
-  width: 150%;
-  height: 450px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right:30px;
-  margin-top: 50px;
-  margin-bottom:30px;
-  border-top:30px;
-  display:flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 30px;
-  background-color: rgb(170, 111, 8);
-  color: rgb(255, 255, 255);
-   text-shadow: #0011ff;
-}
-
-.InputFORM{
-  background-color: rgb(255, 252, 252);
-  color: rgb(0, 0, 7);
-shape-margin:10px;
-margin-left: 25px;
-display: inline-table;
-margin-top:20px ;
-height: 40px;
-width: 90%;
-justify-content: center;
-justify-items: center;
-}
-
-
-
-.Send {
-  background-color: #0011ff;
-  height: 35px;
-  width:100px;
-  cursor: pointer;
-  border-radius: 5px;
-
-}
-.Send:hover{
-  color: rgb(238, 255, 0);
-}
 
 
 .List{
+  color: rgb(6, 6, 240);
   display:list-item;
   justify-items: center;
   text-justify: newspaper;
@@ -313,12 +251,12 @@ justify-items: center;
 }
 
 .Bodypart{
-  background-color: rgb(2, 2, 245);
+  background-color: rgb(238, 238, 244);
 
 }
 .YouTube {
   background-color: red;
-  color:white;
+  color:rgb(255, 252, 252);
   border-style: double;
    padding:5px;
   cursor: pointer;
@@ -341,19 +279,16 @@ justify-items: center;
   border-radius:3px;
   box-sizing:border-box ;
 }
+.aboutcontainer{
+  color:rgb(241, 93, 8);
+
+  display:grid;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
 
 
-.Input  {
-  background-color:white;
-  color: blue;
-  margin-top: 15px;
-   margin-left: 300px;
-   margin-bottom: 15px;
-   padding: 5px;
-  height:40px;
-  width:40%;
-border-top-left-radius:15px;
-border-bottom-left-radius: 15px;
-font-family: Georgia, 'Times New Roman', Times, serif;
 
-};
+
+
+}

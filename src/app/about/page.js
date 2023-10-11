@@ -1,19 +1,19 @@
 import style   from "../../../Components/style.module.css";
 import Image from "next/image";
 import Img from "../../../public/mentor nahom.jpg";
-import imag from "../page.module.css";
 import Nk from "../../../public/nknahom.png";
 import { YouTube } from "../page.module.css";
 import {Facebook} from "../page.module.css";
 import { List } from "../page.module.css";
+import {aboutcontainer} from "../page.module.css"
 export default function about () {
 return (
-   <div>
+   <div className={aboutcontainer}>
    
     <h className= { style.nav}> </h>
-    <div className={imag}>
+    <div>
        <Image src= {Img} placeholder = "blur"alt="nahom" width="460" height="450"></Image>
-       <Image src= { Nk } placeholder = "blur"alt="nahom" width="1010" height="450"></ Image>
+       <Image src= { Nk } placeholder = "blur"alt="nahom" width="800" height="450"></ Image>
 
       <h1>Web Development Course for Beginners</h1>
     <ol className={List}>

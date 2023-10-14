@@ -2,7 +2,7 @@
 import {SearchMovie} from "../Components/style.module.css"
 import { useState } from "react";
 import {SearchIcon} from "../Components/style.module.css";
-export default function search(){
+export default function search({apikey}){
 const [state, setstate]= useState("");
   // function
   const searchMovie =async (event)=>{
@@ -15,7 +15,7 @@ if (searchTitle === ""){
 }
 const convertedMovieTitle = searchTitle.replace(/ /g, "+");
 const getMovieFromAPI = await fetch (
-  'http: //www.omdbapi.com/?t={convertedMovieTitle}&apikey=58f07d09'
+  `http: //www.omdbapi.com/?t=${convertedMovieTitle}&apikey=${apikey}`
 );
 
 const moviejson =await getMovieFromAPI.json();

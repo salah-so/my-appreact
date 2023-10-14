@@ -237,23 +237,21 @@
   
 };
 
+.Bodypart{
+  background-color: aliceblue;
 
+}
 
 .List{
-  color: rgb(6, 6, 240);
-  display:list-item;
-  justify-items: center;
-  text-justify: newspaper;
-  margin: 40px;
-  margin-left: 70px;
-  padding: 5px;
-
-}
-
-.Bodypart{
-  background-color: rgb(238, 238, 244);
-
-}
+  color: blue;
+    display:list-item;
+    justify-items: center;
+    text-justify: newspaper;
+    margin: 40px;
+    margin-left: 70px;
+    padding: 5px;
+  
+  }
 .YouTube {
   background-color: red;
   color:rgb(255, 252, 252);

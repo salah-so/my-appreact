@@ -228,6 +228,10 @@
   }
 }
 
+.Bodypart{
+  background-color: aliceblue;
+
+}
 .movieContainer {
   display: flex;
   flex-wrap:wrap;
@@ -236,11 +240,6 @@
   justify-content: center
   
 };
-
-.Bodypart{
-  background-color: aliceblue;
-
-}
 
 .List{
   color: blue;

@@ -12,7 +12,7 @@ return (
   <div>
      
     <h2 className={Par}> Our Final Web Development Project - ናይ መወዳእታ ፕሮጀክትና ምምዕባል መርበብ ሓበሬታ </h2>
-    <SearchMovie  apikey= {`${process.env.MOVIE_API_KEY}`}/>
+    <SearchMovie  apikey= {`${process.env.OMDB_API_KEY}`}/>
     <div className={style.movieContainer}>
     {movieList}
 
